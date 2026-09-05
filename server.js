@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000;
 app.use('/', require('./routes'));
 
 mongodb.initDB((err) => {
-    if (err){
+    if (err) {
         console.log(err);
     }
     else {
@@ -25,5 +25,5 @@ mongodb.initDB((err) => {
             console.log(`DataBase is listening and Node is running on port ${port}`);
         });
     }
-}) 
+})
 
