@@ -1,25 +1,38 @@
 {
-  "name": "cse341-project-01",
-  "version": "1.0.0",
-  "description": "My First Project with MongoDB",
-  "homepage": "https://github.com/repoProgD/cse341-project-01#readme",
-  "bugs": {
-    "url": "https://github.com/repoProgD/cse341-project-01/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/repoProgD/cse341-project-01.git"
-  },
-  "license": "ISC",
-  "author": "Diego Ledesma",
-  "type": "commonjs",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "mongodb": "^7.6.0"
-  }
+    "name": "cse341-project-01",
+    "version": "1.0.0",
+    "description": "My First Project with MongoDB",
+    "homepage": "https://github.com/repoProgD/cse341-project-01#readme",
+    "bugs": {
+        "url": "https://github.com/repoProgD/cse341-project-01/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/repoProgD/cse341-project-01.git"
+    },
+    "license": "ISC",
+    "author": "Diego Ledesma",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "body-parser": "^2.3.0",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "mongodb": "^7.6.0",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^10.10.0",
+        "eslint-config-prettier": "^10.1.8",
+        "globals": "^17.12.0",
+        "prettier": "^3.9.6",
+        "swagger-autogen": "^2.23.7"
+    }
 }
