@@ -6,10 +6,10 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
     info: {
         title: 'My API',
-        description: 'Temple API',
+        description: 'Project 01 for CSE341',
     },
-    host: 'localhost:3000',
-    schemes: ['http', 'https'],
+    host: 'cse341-project-01-xjh0.onrender.com',
+    schemes: ['https'],
 }
 
 // create an output file in the root directory to save the documentation
